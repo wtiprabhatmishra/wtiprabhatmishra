@@ -1,0 +1,31 @@
+name: Auto Update Profile
+
+on:
+  schedule:
+    # Runs the workflow every day at midnight (adjust schedule as needed)
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Allows you to trigger this manually
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Update Profile
+      run: |
+        echo "Updating Profile README..."
+        # Add your dynamic content update logic here
+        echo "Last Updated: $(date)" > LAST_UPDATED.md
+        # Example: Append the latest date or data to the README file
+        echo "Last Update: $(date)" >> README.md
+
+    - name: Commit and Push Changes
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add .
+        git commit -m "Automated profile update"
+        git push
