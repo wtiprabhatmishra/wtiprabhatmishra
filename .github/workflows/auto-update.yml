@@ -11,18 +11,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    # Checkout the repository
     - name: Checkout Repository
       uses: actions/checkout@v3
 
+    # Update the profile README dynamically
     - name: Update Profile
       run: |
         echo "Updating Profile README..."
-        # Add your dynamic content update logic here
+        # Example: Append the latest date or other dynamic content
         echo "Last Updated: $(date)" > LAST_UPDATED.md
-        # Example: Append the latest date or data to the README file
         echo "Last Update: $(date)" >> README.md
 
+    # Commit and push changes
     - name: Commit and Push Changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Access your saved token securely
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
