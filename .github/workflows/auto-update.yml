@@ -26,7 +26,7 @@ jobs:
     # Commit and push changes
     - name: Commit and Push Changes
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Access your saved token securely
+        GITHUB_TOKEN: ${{ secrets.MY_NEW_TOKEN }} # Replace with your saved secret name
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
