@@ -2,34 +2,33 @@ name: Auto Update Profile
 
 on:
   schedule:
-    # Runs the workflow every day at midnight (adjust schedule as needed)
+    # Runs the workflow every day at midnight
     - cron: "0 0 * * *"
-  workflow_dispatch: # Allows you to trigger this manually
+  workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
   update-profile:
     runs-on: ubuntu-latest
 
     steps:
-    # Checkout the repository
+    # Step 1: Checkout the repository
     - name: Checkout Repository
       uses: actions/checkout@v3
 
-    # Update the profile README dynamically
+    # Step 2: Update the profile README dynamically
     - name: Update Profile
       run: |
         echo "Updating Profile README..."
-        # Example: Append the latest date or other dynamic content
         echo "Last Updated: $(date)" > LAST_UPDATED.md
         echo "Last Update: $(date)" >> README.md
 
-    # Commit and push changes
+    # Step 3: Commit and push changes
     - name: Commit and Push Changes
       env:
-        GITHUB_TOKEN: ${{ secrets.MY_NEW_TOKEN }} # Replace with your saved secret name
+        GITHUB_TOKEN: ${{ secrets.MY_NEW_TOKEN }} # Default GitHub token
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add .
-        git commit -m "Automated profile update"
+        git commit -m "Automated profile update" || echo "No changes to commit"
         git push
