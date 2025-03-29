@@ -1,3 +1,5 @@
+![Banner](assets/banner.png)
+
 # Hi there 👋, I'm Prabhat Mishra  
 
 ## 🚀 About Me:
