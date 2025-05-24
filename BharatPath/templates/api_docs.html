@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Documentation - BharatPath</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav style="text-align: center; padding: 10px 0; background-color: #444;">
+            <a href="{{ url_for('hello_bharatpath') }}" style="color: white; margin: 0 10px; text-decoration: none;">Home</a>
+            <a href="{{ url_for('about_page') }}" style="color: white; margin: 0 10px; text-decoration: none;">About Us</a>
+            <a href="{{ url_for('register') }}" style="color: white; margin: 0 10px; text-decoration: none;">Register</a>
+            <a href="{{ url_for('api_key_page') }}" style="color: white; margin: 0 10px; text-decoration: none;">API Key</a>
+            <a href="{{ url_for('api_docs_page') }}" style="color: white; margin: 0 10px; text-decoration: none;">API Docs</a>
+            <a href="{{ url_for('payment_methods_page') }}" style="color: white; margin: 0 10px; text-decoration: none;">Payments</a>
+        </nav>
+        <h1>BharatPath API Documentation</h1>
+    </header>
+
+    <main>
+        <section id="api-intro">
+            <h2>Introduction</h2>
+            <p>Welcome to the BharatPath API documentation. Our APIs allow you to integrate India's native mapping data into your applications. (Note: This is a placeholder. Detailed documentation will be available soon.)</p>
+        </section>
+
+        <section id="getting-started">
+            <h2>Getting Started</h2>
+            <p>To get started, you'll need an API key. You can get your placeholder key from the <a href="{{ url_for('api_key_page') }}">API Key page</a>.</p>
+            <p>Authentication: Pass your API key as a header <code>X-API-KEY: YOUR_API_KEY</code> in your requests. (Placeholder)</p>
+        </section>
+
+        <section id="api-endpoints">
+            <h2>API Endpoints (Placeholder)</h2>
+            <h3>Example Endpoint: <code>/api/v1/geocode</code></h3>
+            <p>This endpoint will return geocoded information for a given address. More details coming soon.</p>
+        </section>
+        
+        <section id="api-validator">
+            <h2>API Validator</h2>
+            <h3>API Request Validation</h3>
+            <p>All API requests are validated for proper authentication and parameter usage. Ensure your API key is valid and included in your requests. Detailed error codes and messages will be documented here.</p>
+        </section>
+
+        <section id="api-preview">
+            <h2>Views/Preview</h2>
+            <h3>API Preview & Examples</h3>
+            <p>Interactive examples and previews of API responses will be available here, allowing you to test endpoints directly from your browser.</p>
+        </section>
+        
+        <section id="more-details">
+            <h2>More Details & Docs</h2>
+            <p>For more general details, project vision, and information about our founder, please visit: <a href="https://github.com/wtiprabhatmishra" target="_blank">Prabhat Mishra's GitHub Profile</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 BharatPath. All rights reserved. | <a href="{{ url_for('hello_bharatpath') }}">Home</a> | <a href="{{ url_for('about_page') }}">About Us</a> | <a href="{{ url_for('register') }}">Register</a> | <a href="{{ url_for('api_key_page') }}">API Key</a> | <a href="{{ url_for('api_docs_page') }}">API Docs</a> | <a href="{{ url_for('payment_methods_page') }}">Payments</a></p>
+    </footer>
+</body>
+</html>

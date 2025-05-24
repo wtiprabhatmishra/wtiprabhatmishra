@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BharatPath - Bharat ka Apna Path</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav style="text-align: center; padding: 10px 0; background-color: #444;">
+            <a href="{{ url_for('hello_bharatpath') }}" style="color: white; margin: 0 15px; text-decoration: none;">Home</a>
+            <a href="{{ url_for('about_page') }}" style="color: white; margin: 0 15px; text-decoration: none;">About Us</a>
+            <a href="{{ url_for('register') }}" style="color: white; margin: 0 10px; text-decoration: none;">Register</a>
+            <a href="{{ url_for('api_key_page') }}" style="color: white; margin: 0 10px; text-decoration: none;">API Key</a>
+            <a href="{{ url_for('api_docs_page') }}" style="color: white; margin: 0 10px; text-decoration: none;">API Docs</a>
+            <a href="{{ url_for('payment_methods_page') }}" style="color: white; margin: 0 10px; text-decoration: none;">Payments</a>
+        </nav>
+        <h1 class="main-title">BharatPath - Bharat ka Apna Path</h1>
+        <h2 class="tagline">India's First Native Map API Provider.</h2>
+    </header>
+
+    <main>
+        <section id="intro">
+            <p>BharatPath is under development and launching soon.</p>
+            <p>It's proud to be launching and powered by <a href="http://webtechinfinity.com" target="_blank">Web Tech Infinity</a>.</p>
+        </section>
+
+        <!-- Placeholder for 3D graphics/banner -->
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>WhatsApp: +91-91406-26921</li>
+                <li>Call: +91-91406-26921</li>
+                <li>Email: <a href="mailto:info@webtechinfinity.com">info@webtechinfinity.com</a></li>
+                <li>Website: <a href="http://webtechinfinity.com" target="_blank">webtechinfinity.com</a></li>
+                <li>Instagram: <a href="https://instagram.com/bharatpath_" target="_blank">@bharatpath_</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 BharatPath. All rights reserved. | <a href="{{ url_for('about_page') }}">About Us</a> | <a href="{{ url_for('register') }}">Register</a> | <a href="{{ url_for('api_key_page') }}">API Key</a> | <a href="{{ url_for('api_docs_page') }}">API Docs</a> | <a href="{{ url_for('payment_methods_page') }}">Payments</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - BharatPath</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav style="text-align: center; padding: 10px 0; background-color: #444;">
+            <a href="{{ url_for('hello_bharatpath') }}" style="color: white; margin: 0 10px; text-decoration: none;">Home</a>
+            <a href="{{ url_for('about_page') }}" style="color: white; margin: 0 10px; text-decoration: none;">About Us</a>
+            <a href="{{ url_for('register') }}" style="color: white; margin: 0 10px; text-decoration: none;">Register</a>
+            <a href="{{ url_for('api_key_page') }}" style="color: white; margin: 0 10px; text-decoration: none;">API Key</a>
+            <a href="{{ url_for('api_docs_page') }}" style="color: white; margin: 0 10px; text-decoration: none;">API Docs</a>
+            <a href="{{ url_for('payment_methods_page') }}" style="color: white; margin: 0 10px; text-decoration: none;">Payments</a>
+        </nav>
+        <h1>About BharatPath & Our Founder</h1>
+    </header>
+
+    <main>
+        <section id="about-bharatpath">
+            <h2>About BharatPath</h2>
+            <p>BharatPath aims to be India's Premier Native Map API Provider, simplifying access to geospatial data with innovative and easy-to-use solutions.</p>
+            <p>Powered by <a href="http://webtechinfinity.com" target="_blank">Web Tech Infinity</a>.</p>
+        </section>
+
+        <section id="founder-info">
+            <h2>Meet Our Founder & CEO - Prabhat Mishra</h2>
+            <!-- Placeholder for Prabhat Mishra's Photo -->
+            <!-- <img src="{{ url_for('static', filename='images/placeholder_founder.png') }}" alt="Prabhat Mishra - Founder & CEO" style="width:150px; height:auto; border-radius:50%; margin-bottom:15px; display:block; margin-left:auto; margin-right:auto;"> -->
+            <p style="text-align:center; font-style:italic;">[Founder's Photo Placeholder]</p>
+            
+            <p>Prabhat Mishra is a visionary entrepreneur, innovator, and tech enthusiast with extensive experience in web development, app development, design, and software solutions. His passion lies in leveraging cutting-edge technologies like AI, automation, and no-code platforms to create impactful solutions that empower businesses and individuals to thrive in the digital world.</p>
+            
+            <h3>Personal Mission</h3>
+            <p>Prabhat's mission is to simplify technology, make automation accessible, and create innovative solutions that solve real-world problems while empowering users to reach their potential.</p>
+            
+            <h3>Motto</h3>
+            <p><em>"Innovate, Simplify, and Empower."</em></p>
+            
+            <h3>Expertise Highlights</h3>
+            <ul>
+                <li>AI Solutions</li>
+                <li>SaaS Platforms</li>
+                <li>Web & App Development</li>
+                <li>Design & UI/UX</li>
+                <li>Automation Technologies</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 BharatPath. All rights reserved. | <a href="{{ url_for('hello_bharatpath') }}">Home</a> | <a href="{{ url_for('about_page') }}">About Us</a> | <a href="{{ url_for('register') }}">Register</a> | <a href="{{ url_for('api_key_page') }}">API Key</a> | <a href="{{ url_for('api_docs_page') }}">API Docs</a> | <a href="{{ url_for('payment_methods_page') }}">Payments</a></p>
+    </footer>
+</body>
+</html>

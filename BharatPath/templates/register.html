@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register for BharatPath - 7-Day Free Trial</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav style="text-align: center; padding: 10px 0; background-color: #444;">
+            <a href="{{ url_for('hello_bharatpath') }}" style="color: white; margin: 0 10px; text-decoration: none;">Home</a>
+            <a href="{{ url_for('about_page') }}" style="color: white; margin: 0 10px; text-decoration: none;">About Us</a>
+            <a href="{{ url_for('register') }}" style="color: white; margin: 0 10px; text-decoration: none;">Register</a>
+            <a href="{{ url_for('api_key_page') }}" style="color: white; margin: 0 10px; text-decoration: none;">API Key</a>
+            <a href="{{ url_for('api_docs_page') }}" style="color: white; margin: 0 10px; text-decoration: none;">API Docs</a>
+            <a href="{{ url_for('payment_methods_page') }}" style="color: white; margin: 0 10px; text-decoration: none;">Payments</a>
+        </nav>
+        <h1>Register for BharatPath - 7-Day Free Trial</h1>
+    </header>
+
+    <main>
+        <section id="registration-form">
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category }}">
+                            {{ message }}
+                            {% if category == 'success' %}
+                                You can view your placeholder API key <a href="{{ url_for('api_key_page') }}">here</a>.
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+            <form method="POST" action="{{ url_for('register') }}">
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 BharatPath. All rights reserved. | <a href="{{ url_for('hello_bharatpath') }}">Home</a> | <a href="{{ url_for('about_page') }}">About Us</a> | <a href="{{ url_for('register') }}">Register</a> | <a href="{{ url_for('api_key_page') }}">API Key</a> | <a href="{{ url_for('api_docs_page') }}">API Docs</a> | <a href="{{ url_for('payment_methods_page') }}">Payments</a></p>
+    </footer>
+</body>
+</html>

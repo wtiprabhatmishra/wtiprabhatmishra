@@ -1,0 +1,300 @@
+/* General Body Styles */
+body {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1; /* Light gray background */
+    color: #34495e; /* Softer black for text */
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Links */
+a {
+    color: #0056b3; /* Primary blue */
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover, a:focus {
+    color: #003d80; /* Darker blue on hover */
+    text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #2c3e50; /* Dark gray for headings */
+    margin-top: 0;
+    margin-bottom: 0.75em;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.8rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1); /* Subtle shadow for general H1 */
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 1px solid #bdc3c7; /* Light border for H2 */
+    padding-bottom: 0.3em;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/* Header */
+header {
+    background: #2c3e50; /* Dark gray header background */
+    color: #ffffff;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1.main-title { /* Specific for index.html H1 */
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 0px #cccccc, 
+                 2px 2px 0px #bbbbbb, 
+                 3px 3px 0px #aaaaaa,
+                 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+header h2.tagline { /* Specific for index.html H2 */
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #bdc3c7; /* Lighter text for tagline */
+    margin-top: 0.5rem;
+    border-bottom: none; /* Remove border from tagline h2 */
+}
+
+/* Navigation */
+header nav {
+    padding: 0.5rem 0;
+    background-color: #34495e; /* Slightly lighter than header for contrast */
+    margin-bottom: 1rem; /* Space between nav and page title for non-index pages */
+}
+
+header nav a {
+    color: #ecf0f1; /* Light text for nav links */
+    margin: 0 10px;
+    padding: 0.5em 0.75em;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+header nav a:hover, header nav a:focus {
+    background-color: #0056b3; /* Primary blue on hover */
+    color: #ffffff;
+    text-decoration: none;
+    transform: translateY(-1px);
+}
+
+/* Main Content Area */
+main {
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #ffffff; /* White background for content */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Softer, more pronounced shadow */
+}
+
+section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+section:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px 0;
+    background: #2c3e50; /* Dark gray footer background */
+    color: #bdc3c7; /* Lighter text for footer */
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #ecf0f1; /* Light links in footer */
+    font-weight: 500;
+}
+
+footer a:hover, footer a:focus {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Forms */
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #34495e;
+}
+
+form input[type="email"],
+form input[type="password"],
+form input[type="text"] {
+    width: calc(100% - 22px); /* Account for padding and border */
+    padding: 10px;
+    border: 1px solid #bdc3c7; /* Light gray border */
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #34495e;
+    background-color: #fff;
+}
+
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form input[type="text"]:focus {
+    border-color: #0056b3; /* Primary blue on focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.25);
+    outline: none;
+}
+
+/* Buttons */
+button, input[type="submit"] { /* General button styling */
+    background-color: #0056b3; /* Primary blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #004a99; /* Darker blue on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+button:active, input[type="submit"]:active {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Flashed Messages */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.alert-success {
+    color: #155724; /* Dark green text */
+    background-color: #d4edda; /* Light green background */
+    border-color: #c3e6cb; /* Green border */
+}
+
+.alert-error {
+    color: #721c24; /* Dark red text */
+    background-color: #f8d7da; /* Light red background */
+    border-color: #f5c6cb; /* Red border */
+}
+
+/* Specific for Payment Page Disabled Form */
+.disabled-form-field {
+    background-color: #e9ecef;
+    opacity: 0.8; /* Slightly more visible than default disabled */
+    border: 1px solid #ced4da;
+    padding: 10px; /* Consistent with other inputs */
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 4px;
+    width: calc(100% - 22px); /* Consistent with other inputs */
+    margin-bottom: 10px;
+    cursor: not-allowed;
+}
+
+.disabled-button {
+    background-color: #6c757d; /* Bootstrap secondary/disabled gray */
+    border-color: #6c757d;
+    color: #fff;
+    padding: 10px 20px; /* Consistent */
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 4px;
+    opacity: 0.65;
+    cursor: not-allowed;
+    box-shadow: none; /* No shadow for disabled */
+    transform: none; /* No transform for disabled */
+}
+.disabled-button:hover { /* Ensure no hover effects for disabled */
+    background-color: #6c757d;
+    transform: none;
+    box-shadow: none;
+}
+
+
+/* Utility for code/API keys */
+code {
+    background-color: #e9ecef;
+    padding: 0.2em 0.4em;
+    margin: 0;
+    font-size: 90%;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Ensure "Powered by Web Tech Infinity" is styled as a standard link */
+/* This will be covered by the general 'a' styling */
+/* If more specific styling is needed, a class could be added to the link in HTML */
+/* Example:
+.powered-by-link {
+    font-style: italic;
+    font-size: 0.9em;
+}
+*/
+
+/* Contact section on index.html specifics */
+section#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+section#contact ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+section#contact h2 { /* Already has border from general h2 */
+    margin-bottom: 15px;
+}
+
+/* Section intro on index.html */
+section#intro p {
+    font-size: 1.1rem;
+}
+
+/* For API Docs page, ensure preformatted text/code blocks are readable */
+pre {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    border-radius: 4px;
+    overflow-x: auto; /* Allow horizontal scrolling for wide code blocks */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.95em;
+}
