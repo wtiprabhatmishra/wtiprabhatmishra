@@ -4,7 +4,7 @@
 
 ## 🚀 About Me:
 
-I am a **visionary entrepreneur, innovator, and tech enthusiast** with expertise in **web development, app development, design, and software solutions**. My passion lies in **leveraging cutting-edge technologies like AI, automation, and no-code platforms** to create impactful solutions that empower businesses and individuals to thrive in the digital world.
+I am a **visionary entrepreneur, innovator, and tech enthusiast** with expertise in **web development, app development, AI agent development, automation, content creation, and video production**. My passion lies in **leveraging cutting-edge technologies like AI, automation, and no-code platforms** to create impactful solutions that empower businesses and individuals to thrive in the digital world.
 
 As the **Founder & CEO** of:
 
@@ -16,6 +16,8 @@ As the **Founder & CEO** of:
   🇮🇳 **India’s first Desi Map API** and Google Maps alternative designed to make India digitally independent by providing location services tailored for Indian developers and enterprises.
 
 I have a proven track record of turning **bold ideas into actionable projects**, creating tools and systems that drive efficiency, scalability, and impact.
+
+**Full-Stack Web Developer | AI Agent & Automation Developer | Digital Creator | AI, Video & Content Expert**
 
 ---
 
@@ -51,6 +53,7 @@ To **simplify technology**, make **automation accessible**, and create **innovat
 * **Programming Languages**: HTML, CSS, JavaScript, React, Python
 * **Platforms**: Bubble, Webflow, Adalo
 * **Specialties**: AI Solutions, SaaS Platforms, Automation, Web & App Development
+* **Skills**: Full-Stack Web Development, AI Agent Development, Content Automation, Video Creation, Branding, API Integration, UI/UX Design
 * **Fields**: Social Media Automation, E-commerce, Crypto Trading, Maps & Location Intelligence
 
 ---
@@ -74,7 +77,7 @@ I believe in **working smarter, not harder**. My tools and platforms are designe
 
 ---
 
-## 📫 Let's Collaborate:
+## 📢 Let's Collaborate:
 
 ### 🌐 Websites:
 
@@ -106,4 +109,4 @@ I believe in **working smarter, not harder**. My tools and platforms are designe
 
 ---
 
-## 🌟 Last Updated: Sun Jun 15 00:55:58 UTC 2025
+## 🌟 Last Updated: Sun Jun 15 19:20:00 UTC 2025
