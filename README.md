@@ -1,169 +1,121 @@
-![Banner](assets/banner.png)
+[3:17 am, 16/06/2025] Web Tech Infinity: ![Banner](assets/banner.png)
 
 # Hi there 👋, I'm Prabhat Mishra  
 
 ## 🚀 About Me:
-I am a **visionary entrepreneur, innovator, and tech enthusiast** with expertise in **web development, app development, design, and software solutions**. My passion lies in **leveraging cutting-edge technologies like AI, automation, and no-code platforms** to create impactful solutions that empower businesses and individuals to thrive in the digital world.  
+I am a *visionary entrepreneur, innovator, and tech enthusiast* with expertise in *web development, app development, design, and software solutions. My passion lies in **leveraging cutting-edge technologies like AI, automation, and no-code platforms* to create impactful solutions that empower businesses and individuals to thrive in the digital world.  
 
-As the **Founder & CEO** of:  
-- **[WebTech Infinity](http://www.webtechinfinity.com)**:  
-  A premier tech hub delivering **custom web and app solutions**, **AI-driven SaaS platforms**, and **social media automation tools**.  
-- **[Gamonanza](http://www.gamonanza.rf.gd)**:  
-  A disruptive platform revolutionizing the gaming landscape by integrating **modern tools** and **community-focused innovations**.  
+As the *Founder & CEO* of:  
+- *[WebTech Infinity](http://www.webtechinfinity.com)*:  
+  A premier tech hub delivering *custom web and app solutions, **AI-driven SaaS platforms, and **social media automation tools*.  
+- *[Gamonanza](http://www.gamonanza.rf.gd)*:  
+  A disruptive platform revolutionizing the gaming landscape by in…
+[3:26 am, 16/06/2025] Web Tech Infinity: ![Banner](assets/banner.png)
 
-I have a proven track record of turning **bold ideas into actionable projects**, creating tools and systems that drive efficiency, scalability, and impact.  
+# Hi there 👋, I'm Prabhat Mishra
+
+## 🚀 About Me:
+
+I am a *visionary entrepreneur, innovator, and tech enthusiast* with expertise in *web development, app development, design, and software solutions. My passion lies in **leveraging cutting-edge technologies like AI, automation, and no-code platforms* to create impactful solutions that empower businesses and individuals to thrive in the digital world.
+
+As the *Founder & CEO* of:
+
+* *[WebTech Infinity](http://www.webtechinfinity.com)*:
+  A premier tech hub delivering *custom web and app solutions, **AI-driven SaaS platforms, and **social media automation tools*.
+* *[Gamonanza](http://www.gamonanza.rf.gd)*:
+  A disruptive platform revolutionizing the gaming landscape by integrating *modern tools* and *community-focused innovations*.
+* *[BharatPath](https://bharatpath.webtechinfinity.com)*:
+  🇮🇳 *India’s first Desi Map API* and Google Maps alternative designed to make India digitally independent by providing location services tailored for Indian developers and enterprises.
+
+I have a proven track record of turning *bold ideas into actionable projects*, creating tools and systems that drive efficiency, scalability, and impact.
 
 ---
 
 ## 🌟 My Mission:
-To **simplify technology**, make **automation accessible**, and create **innovative solutions** that solve real-world problems while empowering users to reach their potential.  
+
+To *simplify technology, make **automation accessible, and create **innovative solutions* that solve real-world problems while empowering users to reach their potential.
 
 ---
 
 ## 🌟 Highlights & Projects:
 
 ### 🔥 Featured Innovations:
-1. **AI-Powered E-commerce Price Comparison App**:  
-   Revolutionized online shopping by comparing prices across leading e-commerce platforms to find the best deals.  
-2. **Social Media Automation Suite**:  
-   A free platform enabling businesses to **auto-generate**, **schedule**, and **post content seamlessly** on Instagram, Facebook, and LinkedIn.  
-3. **AI-Based Podcast Generator**:  
-   A groundbreaking tool to produce **high-quality podcasts** with minimal effort, empowering creators worldwide.  
-4. **Freelancer Proposal Generator SaaS**:  
-   Streamlined freelancing with AI-driven templates for crafting winning proposals effortlessly.  
-5. **Cryptocurrency Trading Insights**:  
-   Leveraged **Binance trading strategies** to achieve consistent growth and profitability.  
+
+1. *AI-Powered E-commerce Price Comparison App*:
+   Revolutionized online shopping by comparing prices across leading e-commerce platforms to find the best deals.
+2. *Social Media Automation Suite*:
+   A free platform enabling businesses to *auto-generate, **schedule, and **post content seamlessly* on Instagram, Facebook, and LinkedIn.
+3. *AI-Based Podcast Generator*:
+   A groundbreaking tool to produce *high-quality podcasts* with minimal effort, empowering creators worldwide.
+4. *Freelancer Proposal Generator SaaS*:
+   Streamlined freelancing with AI-driven templates for crafting winning proposals effortlessly.
+5. *Cryptocurrency Trading Insights*:
+   Leveraged *Binance trading strategies* to achieve consistent growth and profitability.
+6. *WTIchat AI Chatbot*:
+   India’s smart chatbot with typing animation, tone selection, voice responses, AI avatar & full Hindi/English support.
+7. *Jugaad Master*:
+   Desi AI chatbot providing relatable, real-life solutions with humor and practicality for every Indian.
 
 ---
 
 ## 🧑‍💻 Tech Expertise:
-- **Programming Languages**: HTML, CSS, JavaScript, React, Python  
-- **Platforms**: Bubble, Webflow, Adalo  
-- **Specialties**: AI Solutions, SaaS Platforms, Automation, Web & App Development  
-- **Fields**: Social Media Automation, E-commerce, Crypto Trading  
+
+* *Programming Languages*: HTML, CSS, JavaScript, React, Python
+* *Platforms*: Bubble, Webflow, Adalo
+* *Specialties*: AI Solutions, SaaS Platforms, Automation, Web & App Development
+* *Fields*: Social Media Automation, E-commerce, Crypto Trading, Maps & Location Intelligence
 
 ---
 
 ## 🌱 Personal Ventures:
-- **WebTech Infinity**:  
-   A creative powerhouse offering **web/app solutions** tailored for businesses of all scales.  
-- **Gamonanza**:  
-   A trailblazing platform redefining **gaming experiences** and delivering value to gamers globally.  
 
-I constantly experiment with **new tech**, **AI advancements**, and **creative business models** to stay ahead in a competitive landscape.  
+* *WebTech Infinity*:
+  A creative powerhouse offering *web/app solutions* tailored for businesses of all scales.
+* *Gamonanza*:
+  A trailblazing platform redefining *gaming experiences* and delivering value to gamers globally.
+* *BharatPath*:
+  A mission-driven platform for building *India-first Map APIs* with a vision to replace Google Maps in Indian apps.
+* *WTIai Agents*:
+  A futuristic suite of AI automation tools built to serve creators, solopreneurs & Indian tech startups.
 
 ---
 
 ## 🌟 Fun Fact:
-I believe in **working smarter, not harder**. My tools and platforms are designed to maximize efficiency and productivity, empowering users to achieve **more with less effort**.  
+
+I believe in *working smarter, not harder. My tools and platforms are designed to maximize efficiency and productivity, empowering users to achieve **more with less effort*.
 
 ---
 
-## 📫 Let's Collaborate:  
-### 🌐 Websites:  
-- [WebTech Infinity](http://www.webtechinfinity.com)  
-- [Gamonanza](http://www.gamonanza.rf.gd)  
+## 📫 Let's Collaborate:
 
-### 🌟 Social Profiles:  
-- 🐦 **Twitter**: [@WtiMishra](https://x.com/WtiMishra)  
-- 💼 **LinkedIn**: [Prabhat Mishra](https://www.linkedin.com/in/prabhat-mishra-07477325a)  
-- 📷 **Instagram**:  
-  - [WebTech Infinity](https://www.instagram.com/_webtech_infinity_)  
-  - [Gamonanza](https://www.instagram.com/gamonanza)  
-  - [Gadbad Ghotala](https://www.instagram.com/gadbad_ghotala_420)  
-- 📺 **YouTube**: [WebTech Infinity](https://youtube.com/@webtechinfinity)  
+### 🌐 Websites:
 
-### 💬 Get in Touch:  
-- 📱 **WhatsApp**: [Connect Now](https://wa.me/919140626921)  
+* [WebTech Infinity](http://www.webtechinfinity.com)
+* [Gamonanza](http://www.gamonanza.rf.gd)
+* [BharatPath](https://bharatpath.webtechinfinity.com)
+
+### 🌟 Social Profiles:
+
+* 🐦 *Twitter*: [@WtiMishra](https://x.com/WtiMishra)
+* 💼 *LinkedIn*: [Prabhat Mishra](https://www.linkedin.com/in/prabhat-mishra-07477325a)
+* 📷 *Instagram*:
+
+  * [WebTech Infinity](https://www.instagram.com/_webtech_infinity_)
+  * [Gamonanza](https://www.instagram.com/gamonanza)
+  * [Gadbad Ghotala](https://www.instagram.com/gadbad_ghotala_420)
+* 📺 *YouTube*: [WebTech Infinity](https://youtube.com/@webtechinfinity)
+
+### 💬 Get in Touch:
+
+* 📱 *WhatsApp*: [Connect Now](https://wa.me/919140626921)
+* 📧 *Email*: [info@webtechinfinity.com](mailto:info@webtechinfinity.com)
 
 ---
 
-### 💡 Motto:  
-_"Innovate, Simplify, and Empower."_  
+### 💡 Motto:
 
---- 
+"Innovate, Simplify, and Empower."
 
-## 🌟 Last Updated: `$(date)`  
-Last Update: Tue Mar 25 03:05:56 UTC 2025
-Last Update: Wed Mar 26 03:04:49 UTC 2025
-Last Update: Thu Mar 27 03:05:57 UTC 2025
-Last Update: Fri Mar 28 03:07:16 UTC 2025
-Last Update: Sat Mar 29 03:03:30 UTC 2025
-Last Update: Sun Mar 30 03:13:48 UTC 2025
-Last Update: Mon Mar 31 03:13:26 UTC 2025
-Last Update: Tue Apr  1 03:30:45 UTC 2025
-Last Update: Wed Apr  2 03:07:51 UTC 2025
-Last Update: Thu Apr  3 03:06:42 UTC 2025
-Last Update: Fri Apr  4 03:06:24 UTC 2025
-Last Update: Sat Apr  5 03:04:40 UTC 2025
-Last Update: Sun Apr  6 03:10:33 UTC 2025
-Last Update: Mon Apr  7 03:11:32 UTC 2025
-Last Update: Tue Apr  8 03:07:14 UTC 2025
-Last Update: Wed Apr  9 03:08:47 UTC 2025
-Last Update: Thu Apr 10 03:08:09 UTC 2025
-Last Update: Fri Apr 11 03:09:07 UTC 2025
-Last Update: Sat Apr 12 03:05:58 UTC 2025
-Last Update: Sun Apr 13 04:37:19 UTC 2025
-Last Update: Mon Apr 14 03:14:43 UTC 2025
-Last Update: Tue Apr 15 03:13:35 UTC 2025
-Last Update: Wed Apr 16 03:12:23 UTC 2025
-Last Update: Thu Apr 17 03:11:14 UTC 2025
-Last Update: Fri Apr 18 03:07:59 UTC 2025
-Last Update: Sat Apr 19 03:03:33 UTC 2025
-Last Update: Sun Apr 20 03:14:34 UTC 2025
-Last Update: Mon Apr 21 03:27:38 UTC 2025
-Last Update: Tue Apr 22 03:10:56 UTC 2025
-Last Update: Wed Apr 23 03:12:07 UTC 2025
-Last Update: Thu Apr 24 00:46:30 UTC 2025
-Last Update: Fri Apr 25 00:46:27 UTC 2025
-Last Update: Sat Apr 26 00:44:48 UTC 2025
-Last Update: Sun Apr 27 00:51:03 UTC 2025
-Last Update: Mon Apr 28 00:49:20 UTC 2025
-Last Update: Tue Apr 29 00:46:51 UTC 2025
-Last Update: Wed Apr 30 00:47:17 UTC 2025
-Last Update: Thu May  1 00:53:20 UTC 2025
-Last Update: Fri May  2 00:47:27 UTC 2025
-Last Update: Sat May  3 00:45:31 UTC 2025
-Last Update: Sun May  4 00:53:11 UTC 2025
-Last Update: Mon May  5 00:51:15 UTC 2025
-Last Update: Tue May  6 00:47:45 UTC 2025
-Last Update: Wed May  7 00:47:54 UTC 2025
-Last Update: Thu May  8 00:48:34 UTC 2025
-Last Update: Fri May  9 00:48:05 UTC 2025
-Last Update: Sat May 10 00:45:02 UTC 2025
-Last Update: Sun May 11 00:52:13 UTC 2025
-Last Update: Mon May 12 00:51:26 UTC 2025
-Last Update: Tue May 13 00:48:51 UTC 2025
-Last Update: Wed May 14 00:48:16 UTC 2025
-Last Update: Thu May 15 00:47:21 UTC 2025
-Last Update: Fri May 16 00:49:35 UTC 2025
-Last Update: Sat May 17 00:46:54 UTC 2025
-Last Update: Sun May 18 00:52:53 UTC 2025
-Last Update: Mon May 19 00:52:03 UTC 2025
-Last Update: Tue May 20 00:50:26 UTC 2025
-Last Update: Wed May 21 00:49:28 UTC 2025
-Last Update: Thu May 22 00:48:37 UTC 2025
-Last Update: Fri May 23 00:48:59 UTC 2025
-Last Update: Sat May 24 00:46:13 UTC 2025
-Last Update: Sun May 25 00:54:17 UTC 2025
-Last Update: Mon May 26 00:50:56 UTC 2025
-Last Update: Tue May 27 00:47:31 UTC 2025
-Last Update: Wed May 28 00:49:14 UTC 2025
-Last Update: Thu May 29 00:49:33 UTC 2025
-Last Update: Fri May 30 00:49:04 UTC 2025
-Last Update: Sat May 31 00:47:09 UTC 2025
-Last Update: Sun Jun  1 01:00:23 UTC 2025
-Last Update: Mon Jun  2 00:52:31 UTC 2025
-Last Update: Tue Jun  3 00:50:47 UTC 2025
-Last Update: Wed Jun  4 00:50:30 UTC 2025
-Last Update: Thu Jun  5 00:49:46 UTC 2025
-Last Update: Fri Jun  6 00:49:12 UTC 2025
-Last Update: Sat Jun  7 00:49:00 UTC 2025
-Last Update: Sun Jun  8 00:55:14 UTC 2025
-Last Update: Mon Jun  9 00:53:18 UTC 2025
-Last Update: Tue Jun 10 00:50:11 UTC 2025
-Last Update: Wed Jun 11 00:50:30 UTC 2025
-Last Update: Thu Jun 12 00:49:59 UTC 2025
-Last Update: Fri Jun 13 00:50:32 UTC 2025
-Last Update: Sat Jun 14 00:47:48 UTC 2025
-Last Update: Sun Jun 15 00:55:58 UTC 2025
+---
+
+## 🌟 Last Updated: Sun Jun 15 00:55:58 UTC 2025
